@@ -3,7 +3,7 @@ export const Types = {
   GET_USERS_SUCCESS: "users/get_users_success"
 };
 
-export const getUusersRequest = () => ({
+export const getUsersRequest = () => ({
   type: Types.GET_USERS_REQUEST
 });
 
