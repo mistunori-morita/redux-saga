@@ -6,7 +6,7 @@ function* getUsers() {
   try {
     const result = yield call(api.geUsers);
     yield put(
-      action.getUsersSuccess({
+      actions.getUsersSuccess({
         items: result.data.data
       })
     );
